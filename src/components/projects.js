@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Aboutme() {
+export default function Projects() {
   return (
     <section class="project" id="projects">
         <h1> Projects </h1>
