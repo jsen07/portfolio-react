@@ -282,3 +282,55 @@ nav ul li a:hover {
     transform: translateY(-10px);
     transition: 0.5s;
 }
+
+/* ABOUT ME  */
+.about-me {
+    width: 100%;
+    height: 1000px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6efea;
+}
+
+.abt-me-header {
+    width: 500px;
+    height: 200px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-content {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+ }
+ 
+ .about-me img {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: #18191A;
+ }
+
+.about-me-textbox {
+    width: min(600px, 50%);
+    height: 500px;
+    border-top: 2px solid #008100;
+    border-left: 2px solid #008100;
+    text-align: center;
+    margin-inline: 20px 150px;
+    padding: 20px;
+    font-family: prompt-thin;
+}
+.about-me-textbox h2 {
+    font-family: prompt;
+    font-size: 50px;
+    margin: 20px 10px;
+    text-align: left;
+}
