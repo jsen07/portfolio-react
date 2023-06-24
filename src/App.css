@@ -30,6 +30,7 @@
     z-index: 2; /* Seting a higher z index to ensure that the header remains on top of all elements, in this case it is set to 2 because projects links are set to the z-index of 1 */
     font-family: prompt;
     align-items: center;
+    background-color: white;
 }
 .header h1{
     padding-left: 50px;
@@ -170,5 +171,114 @@ nav ul li a:hover {
 }
 .button:hover {
     transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/* PROJECTS  */
+.project h1, .about-me h1, .contact-me h1{
+    text-align: center;
+    font-family: prompt-thin;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: #008100;
+    text-underline-offset: 15px; /* positions the underline 15px downwards */
+}
+
+.project {
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(246,239,234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px solid black;
+}
+.project-container {
+    width:80%;
+    height: 1100px;
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+.project-1, .project-2, .project-3, .project-4, .project-5 {
+    display:flex;
+    align-items: flex-end;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+
+}
+.project-1{
+    height: 900px;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url(../public/assets/horiseon.PNG);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.project-1 h2, .project-2 h2, .project-3 h2, .project-4 h2, .project-5 h2{
+    font-family: prompt;
+    background-color: black;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+    padding-inline: 10px;
+
+}
+
+.sub-container, .sub-container-2 {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.project-2 {
+    width: 65%;
+    height: 300px;
+    margin-right: 10px;
+    background-image: url(../public/assets/meal-plan.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+
+}
+
+.project-3 {
+    width: 35%;
+    height: 300px;
+    background-image: url(../public/assets//readsky.PNG);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.project-4 {
+    width: 40%;
+    height: 400px;
+    margin-right: 10px;
+    background-image: url(../public/assets/placeholder.png);
+    background-size: contain;
+    background-repeat:
+    no-repeat;
+}
+
+.project-5 {
+    width: 60%;
+    height: 400px;
+    background-image: url(../public/assets/placeholder.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.project-1:hover, .project-2:hover, .project-3:hover, .project-4:hover, .project-5:hover {
+    transform: translateY(-10px);
     transition: 0.5s;
 }
