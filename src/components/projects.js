@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Projects() {
   return (
+
     <section className="project" id="projects">
         <h1> Projects </h1>
     
@@ -37,5 +38,6 @@ export default function Projects() {
         </div>
     </section>
 </section>
+
   )
 }
