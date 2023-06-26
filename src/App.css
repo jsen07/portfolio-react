@@ -286,7 +286,7 @@ nav ul li a:hover {
 /* ABOUT ME  */
 .about-me {
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     display: block;
     justify-content: center;
     align-items: center;
@@ -338,7 +338,7 @@ nav ul li a:hover {
 /* CONTACT ME */
 .contact-me {
     width: 100%;
-    height: 600px;
+    height: 100vh;
     display: block;
     justify-content: center;
     align-items: center;
@@ -361,10 +361,11 @@ nav ul li a:hover {
  /* FOOTER */
  .footer {
     height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100vw;
+    position: absolute;
+    margin: auto;
     background-color: #18191A; 
+    text-align: center;
 
 }
 .footer img {
