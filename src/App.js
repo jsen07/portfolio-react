@@ -13,13 +13,14 @@ function App() {
   return (
 <>
 <div className='header'>
-        <img src="assets/logo.png" className="logo" alt="website-logo-image"/>
+        <a href="/"><img src="assets/logo.png" class="logo" alt="website-logo-image"/></a>
         <nav className="nav-bar">
     
             <ul>
                 <li onClick={() => setPage(Projects)}><a href="#projects">Projects</a></li>
                 <li onClick={() => setPage(Aboutme)}><a href="#about">About me</a></li>
                 <li onClick={() => setPage(Contactme)}><a href="#contact">Contact</a></li>
+                <li><a href="assets/dummyResume.docx" download> Resume </a></li>
               
             </ul>
     
