@@ -268,7 +268,7 @@ nav ul li a:hover {
     width: 40%;
     height: 400px;
     margin-right: 10px;
-    background-image: url(../public/assets/placeholder.png);
+    background-image: url(../public/assets/airbnp-img.PNG);
     background-size: contain;
     background-repeat:
     no-repeat;
@@ -339,7 +339,7 @@ nav ul li a:hover {
     text-align: left;
 }
 
-/* CONTACT-ME */
+/* CONTACT-ME- */
 .contact-me {
     width: 100%;
     height: 100vh;
